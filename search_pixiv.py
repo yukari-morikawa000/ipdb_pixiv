@@ -68,10 +68,10 @@ if __name__ == "__main__":
                 if candidates:
                     for title, link in candidates:
                         print(f" {title} → {link}")
-                        writer.writerow([word, title, link])  # ✅ ← これが必要
+                        writer.writerow([word, title, link]) 
                 else:
                     print("該当なし")
-                    writer.writerow([word, "該当なし", ""])  # ✅ 該当なし記録
+                    writer.writerow([word, "該当なし", ""])  # 該当なし記録
 
             except Exception as e:
                 print(f"エラー発生：{word}→{e}")
