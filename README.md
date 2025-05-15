@@ -19,11 +19,11 @@ Playwright によるブラウザ自動操作に対応しており、JavaScript�
 
 | ファイル名 | 説明 |
 |------------|------|
-| `ip_list.py` | 検索対象のキーワードリスト（Pythonリスト形式） |
-| `search_pixiv.py` | メインスクリプト。Playwrightで検索・取得・保存を行います |
-| `results.tsv` | 検索結果の出力（TSV形式） |
-| `completed.txt` | 検索済みキーワードの記録（1行1語） |
-| `requirements.txt` | 必要なPythonライブラリ（`playwright` を含む） |
+| `search_collect_title/ip_list.py` | 検索対象のキーワードリスト（Pythonリスト形式） |
+| `search_collect_title/search_pixiv.py` | メインスクリプト。Playwrightで検索・取得・保存を行います |
+| `search_collect_title/results.tsv` | 検索結果の出力（TSV形式） |
+| `search_collect_title/completed.txt` | 検索済みキーワードの記録（1行1語） |
+| `search_collect_title/requirements.txt` | 必要なPythonライブラリ（`playwright` を含む） |
 | `Dockerfile` | Playwright対応済みのDockerビルド定義ファイル |
 
 ---
